@@ -1,4 +1,4 @@
 * [Home](/)
-* [WHMCS](/whmcs/)
-* [VNetPanel](/vnetpanel/)
-* [SSPanel](/sspanel/)
+* [WHMCS](whmcs.md)
+* [VNetPanel](vnetpanel.md)
+* [SSPanel](sspanel.md)
