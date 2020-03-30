@@ -59,18 +59,34 @@ bind host
 
 ##### vnetpanel
 
+```
+# format: vnetpanel apiHost nodeID secretKey
+vnetpanel https://www.vnetpanel.com NODE_ID SECRET_KEY
+```
+
 ##### sspanel
 
+```
+# on the way
+```
+
 ##### whmcs
+
+```
+whmcs https://your.whmcs.domain WEBAPI_TOKEN {
+    interval 10                      # sync internal, unit second
+    trafficRate 1.1                  # a float number, by which scales a node traffic
+    nodeSpeedLimit 0                 # unit Mbps, zero means unlimited
+    maxOnlineIPCount 0               # How many IP count can a user active at the same time, zero means unlimited
+    userSpeedLimit 0                 # unit Mbps, zero means unlimited
+}
+```
 
 ##### local
 
 ```
 local {
   passwords password1 password2 ... passwordN
-  nodeSpeedLimit 0                 # unit Mbps, zero means unlimited
-  maxOnlineIPCount 1               # How many IP count can a user active at the same time, zero means unlimited
-  userSpeedLimit 1                 # unit Mbps, zero means unlimited
 }
 ```
 
