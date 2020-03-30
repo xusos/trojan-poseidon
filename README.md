@@ -1,13 +1,21 @@
 # Trojan Poseidon
-[Trojan](http://github.com/trojan-gfw/trojan) for [VNetPanel](https://t.me/vnetpanel), [WHMCS](https://www.whmcs.com/) and [SSPanel](https://github.com/Anankke/SSPanel-Uim)
 
-Coming soon...
+[Trojan](http://github.com/trojan-gfw/trojan) for [VNetPanel](https://t.me/vnetpanel), [WHMCS](https://www.whmcs.com/), [SSPanel](https://github.com/Anankke/SSPanel-Uim) and Local config without panel.
+
+To distinguish [Trojan-Poseidon](https://github.com/ColetteContreras/trojan-poseidon) from [Trojan](http://github.com/trojan-gfw/trojan), our service and distributions name will be **`trojanp`** instead of `trojan`.
+
+### OUR MISSION
+
+Let everyone rides his own trojan horse without pain!
+
 
 | Panel | Progress | 
 |-------|----------|
+| [Local(without Panel)](/local) | 100% |
 | VNetPanel | 80% |
 | WHMCS | 70% |
 | SSPanel | Under developing |
+
 
 ### Poseidonfile
 
@@ -23,6 +31,12 @@ line N: DIRECTIVE param1 param2 ... paramN
 
 
 #### Directives
+
+##### tls
+
+```
+
+```
 
 ##### root
 `root` specifies the root path of your static site

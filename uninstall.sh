@@ -2,13 +2,13 @@
 
 set -x
 
-systemctl stop trojan_poseidon
-systemctl disable trojan_poseidon
+systemctl stop trojanp
+systemctl disable trojanp
 
-service trojan_poseidon stop
-update-rc.d -f trojan_poseidon remove
+service trojanp stop
+update-rc.d -f trojanp remove
 
-rm -rf /root/trojan_poseidon/trojan_poseidon /etc/systemd/system/trojan_poseidon.service
+rm -rf /root/trojanp/trojanp /etc/systemd/system/trojanp.service
 set -
 
 echo "Logs and configurations are preserved, you can remove these manually"
